@@ -11,10 +11,29 @@
       height: 6000px;
       /* background-color: red; */
     }
+    #app {
+      width: 500px;
+      height: 500px;
+      border: 1px solid #000000;
+      display: flex;
+    }
+    .item1 {
+      flex: 1;
+      background-color: red;
+    }
+    .item2 {
+      width: 100px;
+      height: 100px;
+      flex: 2;
+      background-color: yellow;
+    }
   </style>
   <body>
     123
-    <div id="app"></div>
+    <div id="app">
+      <div class="item1"></div>
+      <div class="item2"></div>
+    </div>
     <!-- <script src="./curryWithPlaceholder.js"></script>
     <script src="./debounce.js"></script> -->
     <!-- <script src="./curry.js"></script> -->
